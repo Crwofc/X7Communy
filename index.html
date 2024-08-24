@@ -135,6 +135,26 @@
             transform: scale(1.05);
         }
 
+        .join-button {
+            background: linear-gradient(45deg, #10a64a, #28a745);
+            color: #fff;
+            border: none;
+            border-radius: 20px;
+            padding: 10px 20px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            text-transform: uppercase;
+            transition: background 0.3s, transform 0.3s;
+            margin-top: 1rem;
+            display: inline-block;
+        }
+
+        .join-button:hover {
+            background: linear-gradient(45deg, #28a745, #10a64a);
+            transform: scale(1.05);
+        }
+
         @media screen and (max-width: 720px) {
             .content {
                 max-width: 90vw;
@@ -186,6 +206,7 @@
             <p>Obrigado por se verificar!</p>
             <img src="logo_robot.png">
             <button id="verifySucess" disabled style="pointer-events: none; opacity: 0.6; cursor: not-allowed;">Verificado com sucesso</button>
+            <a href="https://discord.com/invite/5Bsu28CHVj" class="join-button">Entre na Nossa Comunidade</a>
         </div>
     </div>
 </main>
