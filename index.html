@@ -146,8 +146,15 @@
             cursor: pointer;
             text-transform: uppercase;
             transition: background 0.3s, transform 0.3s;
+            display: flex;
+            align-items: center;
             margin-top: 1rem;
-            display: inline-block;
+        }
+
+        .join-button img {
+            width: 24px;
+            height: auto;
+            margin-right: 8px;
         }
 
         .join-button:hover {
@@ -206,7 +213,9 @@
             <p>Obrigado por se verificar!</p>
             <img src="logo_robot.png">
             <button id="verifySucess" disabled style="pointer-events: none; opacity: 0.6; cursor: not-allowed;">Verificado com sucesso</button>
-            <a href="https://discord.com/invite/5Bsu28CHVj" class="join-button">Entre na Nossa Comunidade</a>
+            <a href="https://discord.com/invite/5Bsu28CHVj" class="join-button">
+                <img src="discord-icon.png" alt="Discord Icon"> Entre na Nossa Comunidade
+            </a>
         </div>
     </div>
 </main>
